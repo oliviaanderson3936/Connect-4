@@ -1,0 +1,60 @@
+body {
+    font-family: helvetica;
+    font-size: 12pt;
+}
+.float-left {
+    float: left;
+}
+.float-right {
+    float: right;
+}
+.text-center {
+    text-align: center;
+}
+a {
+    color: #ffffff;
+}
+/* Below is a fixed layout for the application canvas*/
+#app {
+    max-width: 400px;
+    background: #000000;
+    border: 2px solid #2ecdd8;
+}
+/* Styling the header of the game */
+header h1 {
+    background: #000000;
+    color: #ffffff;
+    margin: 0;
+    padding: 0.5rem;
+    text-align: center;
+    border-bottom: 2px solid #ffffff;
+}
+header h1 a {
+    text-decoration: none;
+}
+/* Main canvas/game area styles */
+article {
+    height: 400px;
+    overflow: auto;
+    color: #ffffff;
+    padding: 0.5rem;
+    position: relative;
+}
+article h2 {
+    margin: 0;
+}
+/* Styling the footer */
+footer {
+    background: #2ecdd8;
+    color: #000000;
+    font-size: 0.6rem;
+    padding: 0.2rem 0.3rem;
+}
+footer:after {
+    content: ' ';
+    display: table;
+    clear: both;
+}
+::-webkit-scrollbar {
+    display: none;
+}

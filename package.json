@@ -20,13 +20,14 @@
     "test:ember": "ember test"
   },
   "devDependencies": {
+    "@ember/jquery": "^0.6.0",
     "@ember/optional-features": "^2.0.0",
     "@glimmer/component": "^1.0.2",
     "@glimmer/tracking": "^1.0.2",
     "babel-eslint": "^10.1.0",
     "broccoli-asset-rev": "^3.0.0",
     "ember-auto-import": "^1.6.0",
-    "ember-cli": "~3.22.0",
+    "ember-cli": "~3.9.0",
     "ember-cli-app-version": "^4.0.0",
     "ember-cli-babel": "^7.22.1",
     "ember-cli-dependency-checker": "^3.2.0",
@@ -56,5 +57,8 @@
   },
   "ember": {
     "edition": "octane"
+  },
+  "dependencies": {
+    "easeljs": "^1.0.2"
   }
 }

@@ -1,5 +1,5 @@
 import Application from '@ember/application';
-import Resolver from 'ember-resolver';
+import Resolver from './resolver';
 import loadInitializers from 'ember-load-initializers';
 import config from 'web-app/config/environment';
 
@@ -10,3 +10,4 @@ export default class App extends Application {
 }
 
 loadInitializers(App, config.modulePrefix);
+
